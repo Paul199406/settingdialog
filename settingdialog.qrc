@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="close">Resources/SettingTitleBar/close.png</file>
+        <file alias="close1">Resources/SettingTitleBar/close1.png</file>
+        <file alias="max">Resources/SettingTitleBar/max.png</file>
+        <file alias="min">Resources/SettingTitleBar/min.png</file>
+        <file alias="restore">Resources/SettingTitleBar/restore.png</file>
+        <file alias="information">Resources/SettingDialog/information.png</file>
+        <file alias="question">Resources/SettingDialog/question.png</file>
+        <file alias="SettingDialog">Resources/SettingDialog/SettingDialog.css</file>
+        <file alias="waring">Resources/SettingDialog/warnning.png</file>
+        <file alias="SettingTitleBar">Resources/SettingTitleBar/SettingTitleBar.css</file>
+    </qresource>
+</RCC>

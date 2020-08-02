@@ -1,0 +1,73 @@
+*{font-family:Microsoft YaHei;}
+
+QLabel#TitleContent
+{
+	color:black;
+}
+
+/*��С����ť*/
+QPushButton#ButtonMin
+{
+    border-image:url(:/min) 0 81 0 0 ;
+}
+
+QPushButton#ButtonMin:hover
+{
+    border-image:url(:/min) 0 54 0 27 ;
+}
+
+QPushButton#ButtonMin:pressed
+{
+    border-image:url(:/min) 0 27 0 54 ;
+}
+
+/*��󻯰�ť*/
+QPushButton#ButtonMax
+{
+    border-image:url(:/max) 0 81 0 0 ;
+}
+
+QPushButton#ButtonMax:hover
+{
+    border-image:url(:/Rmax) 0 54 0 27 ;
+}
+
+QPushButton#ButtonMax:pressed
+{
+    border-image:url(:/max) 0 27 0 54 ;
+}
+
+/*��ԭ��ť*/
+QPushButton#ButtonRestore
+{
+    border-image:url(:/restore) 0 81 0 0 ;
+}
+
+QPushButton#ButtonRestore:hover
+{
+    border-image:url(:/restore) 0 54 0 27 ;
+}
+
+QPushButton#ButtonRestore:pressed
+{
+    border-image:url(:/restore) 0 27 0 54 ;
+}
+
+/*�رհ�ť*/
+QPushButton#ButtonClose
+{
+    border-image:url(:/close) 0 81 0 0 ;
+    border-top-right-radius:0 ;
+}
+
+QPushButton#ButtonClose:hover
+{
+    border-image:url(:/close) 0 54 0 27 ;
+    border-top-right-radius:0 ;
+}
+
+QPushButton#ButtonClose:pressed
+{
+    border-image:url(:/close) 0 27 0 54 ;
+    border-top-right-radius:0 ;
+}

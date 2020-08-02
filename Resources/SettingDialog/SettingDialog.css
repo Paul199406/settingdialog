@@ -1,6 +1,6 @@
 *{font-family:Microsoft YaHei;}
 
-QLabel#MessageContent
+QLabel#contentLabel
 {
 	font-size:14px;
 }
@@ -8,22 +8,22 @@ QLabel#MessageContent
 QPushButton#pButtonOk
 {
 	color:white;
-	background-color:rgb(14 , 150 , 254);
-	border: 1px solid rgb(11 , 137 , 234);
+	background-color:rgb(85 , 200 , 100);
+	border: 1px solid rgb(183 , 183 , 183);
 }
 
 QPushButton#pButtonOk:hover
 {
 	color:white;
-	background-color:rgb(44 , 137 , 255);
-	border: 1px solid rgb(11 , 137 , 234);
+	background-color:rgb(70 , 196, 86);
+	border: 1px solid rgb(183 , 183 , 183);
 }
 
 QPushButton#pButtonOk:pressed
 {
 	color:white;
-	background-color:rgb(14 , 135 , 228);
-	border: 1px solid rgb(12 , 138 , 235);
+	background-color:rgb(62 , 193 , 79);
+	border: 1px solid rgb(183 , 183 , 183);
 	padding-left:3px;
 	padding-top:3px;
 }
@@ -39,24 +39,14 @@ QPushButton#pButtonCancel:hover
 {
 	color:black;
 	background-color:rgb(228 , 240 , 250);
-	border: 1px solid rgb(15 , 150 , 255);
+	border: 1px solid rgb(183 , 183 , 183);
 }
 
 QPushButton#pButtonCancel:pressed
 {
 	color:black;
 	background-color:rgb(204 , 228 , 247);
-	border: 1px solid rgb(1 , 84 , 153);
+	border: 1px solid rgb(183 , 183 , 183);
 	padding-left:3px;
 	padding-top:3px;
-}
-
-QLineEdit#inputContent
-{
-	border: 1px solid rgb(195 , 195 , 195);
-}
-
-QLineEdit#inputContent:hover
-{
-	border: 1px solid rgb(1 , 186 , 255 );
 }

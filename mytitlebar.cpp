@@ -64,12 +64,12 @@ void MyTitleBar::initControl()
 	mylayout->addWidget(m_pButtonMax);
 	mylayout->addWidget(m_pButtonClose);
 
-	mylayout->setContentsMargins(5, 0, 0, 0);
+    mylayout->setContentsMargins(5, 0, 0, 0);
 	mylayout->setSpacing(0);
 
 	m_pTitleContent->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Fixed);
 	this->setFixedHeight(TITLE_HEIGHT);
-	this->setWindowFlags(Qt::FramelessWindowHint);
+    this->setWindowFlags(Qt::FramelessWindowHint);
 }
 
 // �źŲ۵İ�;
